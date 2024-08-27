@@ -25,7 +25,45 @@
       
         <label for="bio">Your Bio:</label>
         <textarea id="bio" name="bio" placeholder="Tell us about yourself" required></textarea>
-      
+
+        <label for="college">Your College:</label>
+        <input type="text" id="college" name="college" placeholder="Enter your college name">
+
+        <label for="tech-stack">Tech Stack:</label>
+        <input type="text" id="tech-stack" name="tech-stack" placeholder="Enter your tech stack">
+
+        <label for="experience-toggle">Do you have experience?</label>
+        <select id="experience-toggle">
+          <option value="no">No</option>
+          <option value="yes">Yes</option>
+        </select>
+
+        <div id="experience-section" style="display: none;">
+          <label for="experience">Experience Details:</label>
+          <textarea id="experience" name="experience" placeholder="Describe your experience"></textarea>
+        </div>
+
+        <label for="project-timeline">Project Timeline:</label>
+        <input type="text" id="project-timeline" name="project-timeline" placeholder="Enter project timeline">
+
+        <div id="certifications">
+          <label for="certification-0">Certification:</label>
+          <input type="text" id="certification-0" name="certification-0" placeholder="Enter certification">
+        </div>
+        <button type="button" id="add-certification">Add Another Certification</button>
+
+        <label for="linkedin-toggle">Include LinkedIn URLs?</label>
+        <select id="linkedin-toggle">
+          <option value="no">No</option>
+          <option value="yes">Yes</option>
+        </select>
+
+        <div id="linkedin-section" style="display: none;">
+          <label for="linkedin-0">LinkedIn URL:</label>
+          <input type="text" id="linkedin-0" name="linkedin-0" placeholder="Enter LinkedIn URL">
+          <button type="button" id="add-linkedin">Add Another LinkedIn URL</button>
+        </div>
+
         <!-- Project Section -->
         <div id="project-section">
           <label for="project-title-0">Project Title:</label>
